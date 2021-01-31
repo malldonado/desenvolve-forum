@@ -1,0 +1,116 @@
+html,
+body {
+    height: auto !important;
+    overflow-x: hidden !important;
+    padding-right: 0 !important;
+    padding: 0 !important;
+}
+
+.desenvouve-body {
+    height: auto !important;
+    overflow-x: hidden !important;
+    padding-right: 0 !important;
+    padding: 0 !important;
+}
+
+
+.logo-img {
+    width: 120px;
+    margin: 0px 15px;
+}
+
+/* PALETA DE CORES */
+
+.verde_claro {
+    color: #00CE81;
+}
+
+.verde_escuro {
+    color: #27AE60;
+}
+
+.verde_escuro_background:hover {
+    background: #27AE60;
+    color: #fff !important;
+}
+
+.azul_claro {
+    color: #76A9FF;
+}
+
+/* NAVBAR */
+
+.modal-dialog {
+    width: 450px !important;
+}
+
+.modal-open {
+    padding-right: 0 !important;
+}
+
+.modal-backdrop.show {
+    opacity: .7;
+}
+
+.modal.fade.show {
+    padding-right: 0 !important;
+}
+
+.navbar {
+    margin: 0 0 2% 0;
+}
+
+.logo-img {
+    width: 120px;
+    margin: 0px 15px;
+}
+
+.nav-link {
+    color: #000 !important;
+    font-weight: 600 !important;
+}
+
+.nav-link:hover {
+    color: #27AE60 !important;
+}
+
+.form-control {
+    padding: .375rem 0.75rem;
+    width: 400px !important;
+}
+
+.btn-outline-success-search {
+    width: 60px !important;
+}
+
+.btn-outline-success-account {
+    margin: 0 5px;
+}
+
+.icon-language {
+    margin: 0 0 0 5px;
+}
+
+.icon-social-media {
+    margin: 0 5px 0 0;
+}
+
+.card-img-top-header {
+    width: 22px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.card-user {
+    border-radius: 100%;
+    padding: 0;
+    top: 8px;
+    right: 10px;
+    position: absolute;
+    background-color: #fff;
+}
+
+.form-inline {
+    margin-bottom: 0!important;
+    margin: 0 40px;
+}
