@@ -16,16 +16,16 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="../img/icon.png" type="image/x-icon" />
     <title>Desenvouve</title>
 </head>
 
 <body>
     <!--START NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a href="index.html">
-            <img class="logo-img" src="../img/logo.png">
+            <img class="logo-img" src="../img/logo-footer.png">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -33,15 +33,6 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Linguagens<i class="fas fa-globe icon-language"></i>
-              </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Java<i class="fab fa-java icon-language"></i></a>
-                        <a class="dropdown-item" href="#">Java Script<i class="fab fa-js-square icon-language"></i></a>
-                        <a class="dropdown-item" href="#">React<i class="fab fa-react icon-language"></i></a>
-                    </div>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">

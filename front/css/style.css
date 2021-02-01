@@ -134,6 +134,10 @@ a:hover {
 
 /* NAVBAR */
 
+nav {
+  height: 55px !important;
+}
+
 .modal-dialog {
     width: 450px !important;
 }
@@ -156,7 +160,29 @@ a:hover {
 
 .logo-img {
     width: 120px;
-    margin: 0px 15px;
+}
+
+input.form-control {
+  outline: none;
+  margin: 0.3px 0 0 0;
+  height: 40px;
+  border: 1px solid #27AE60 !important;
+  color: #27AE60 !important;
+  font-weight: bold;
+}
+
+input.form-control::placeholder {
+  color: #27AE60 !important;
+  opacity: 1 !important;
+}
+
+.dropdown-item:hover {
+    background: #27AE60;
+    color: #fff;
+}
+
+.bg-light {
+  background-color: #27AE60!important;
 }
 
 .nav-link {
@@ -540,14 +566,17 @@ input.form-control::placeholder {
         padding: 30px;
     }
     .logo-img {
-        width: 115px;
-        height: 33px;
-        position: absolute;
-        top: 10px;
-        right: 0;
-        left: 0;
-        margin: 0 auto;
+      width: 115px;
+      height: 33px;
+      right: 0;
+      left: 0;
     }
+
+    button.navbar-toggler {
+      position: absolute;
+      top: 10px;
+    }
+
     .titulo-pergunta h3 {
         font-size: 20px;
         margin: 20px 0;

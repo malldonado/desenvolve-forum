@@ -8,7 +8,7 @@
             <img class="rounded-circle" src="../img/perfil.svg" alt="Generic placeholder image" width="140" height="140">
             <h5 class="title-profile-desenvouve">Pedro Alves</h5>
             <p>Desenvolvedor Front-end Junior</p>
-            <a class="btn btn-outline-success" href="user.html">Detalhes</a>
+            <a class="btn btn-outline-success" href="user.php">Detalhes</a>
         </div>
 
         <div class="col-md-9 perguntas">
