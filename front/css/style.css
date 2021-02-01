@@ -168,7 +168,7 @@ input.form-control {
   height: 40px;
   border: 1px solid #27AE60 !important;
   color: #27AE60 !important;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 input.form-control::placeholder {
@@ -449,7 +449,7 @@ input.form-control::placeholder {
 /* FOOTER */
 
 .footer-desenvouve {
-    background: #28a745;
+    background:#27AE60;
     position: absolute;
     width: 100%;
     margin: 0 auto;

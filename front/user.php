@@ -54,11 +54,11 @@
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="novaSenha">Nova senha</label>
-                                <input type="text" id="novaSenha" class="form-control" placeholder="******" />
+                                <input type="password" id="novaSenha" class="form-control" placeholder="******" />
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="confirmarSenha">Confirmar senha</label>
-                                <input type="text" id="confirmarSenha" class="form-control" placeholder="******" />
+                                <input type="password" id="confirmarSenha" class="form-control" placeholder="******" />
                             </div>
                         </div>
                     </div>
