@@ -23,7 +23,7 @@
 
 <body>
     <!--START NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin: 0">
         <a href="index.html">
             <img class="logo-img" src="../img/logo-footer.png">
         </a>
@@ -45,3 +45,5 @@
 
     </nav>
     <!--END NAVBAR-->
+
+    
