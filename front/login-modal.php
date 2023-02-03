@@ -1,6 +1,6 @@
 <!-- START MODAL LOGIN -->
 <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog desenvolve-modal-login" role="document">
         <div class="modal-content">
             <img class="img-logo-sing-in" src="../img/logo.png" alt="">
             <img class="sing-in-image" src="../img/sign-in.jpg" alt="">
