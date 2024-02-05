@@ -8,8 +8,8 @@ body {
     padding: 0 !important;
 }
 
-.body {
-    height: auto !important;
+.desenvouve-body {
+    height: calc(100vh - 443px);
     overflow-x: hidden !important;
     padding-right: 0 !important;
     padding: 0 !important;
@@ -87,7 +87,7 @@ body {
     color: #27AE60;
 }
 
-.green-dark-background:hover {
+.verde_escuro_background:hover {
     background: #27AE60;
     color: #fff !important;
 }
@@ -99,21 +99,21 @@ body {
 
 /* PAINEL DE PERGUNTAS */
 
-.questions {
+.perguntas {
     padding: 13px 0px;
 }
 
-.item-question {
+.item-pergunta {
     padding: 15px;
     border: 1px solid transparent;
 }
 
-.item-question:hover {
+.item-pergunta:hover {
     border: 1px solid rgb(194, 194, 194);
     background-color: rgb(240, 240, 240);
 }
 
-.item-question p {
+.item-pergunta p {
     margin-bottom: 5px;
 }
 
@@ -126,9 +126,10 @@ a:hover {
     color: #00CE81;
 }
 
-.votes,
-.responses {
+.votos,
+.respostas {
     color: #00CE81;
+    cursor: pointer;
 }
 
 
@@ -154,27 +155,8 @@ nav {
     padding-right: 0 !important;
 }
 
-.navbar {
-    margin: 0 0 2% 0;
-    background-color: #27AE60!important;
-}
-
 .logo-img {
     width: 120px;
-}
-
-input.form-control {
-  outline: none;
-  margin: 0.3px 0 0 0;
-  height: 40px;
-  border: 1px solid #27AE60 !important;
-  color: #27AE60 !important;
-  font-weight: 400;
-}
-
-input.form-control::placeholder {
-  color: #27AE60 !important;
-  opacity: 1 !important;
 }
 
 .dropdown-item:hover {
@@ -238,17 +220,13 @@ input.form-control::placeholder {
 
 
 /* MODAL LOGIN*/
-.modal-login {
-    height: 500px;
-    margin: auto;
-}
 
 .modal-title {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     position: absolute;
     right: 0;
-    top: 70px;
+    top: 120px;
     margin: 0 auto;
     font-weight: 800;
     left: 0;
@@ -271,22 +249,21 @@ input.form-control::placeholder {
     font-size: 20px !important;
 }
 
-.modal-login-dialog {
+.desenvolve-modal-login {
     position: absolute;
     bottom: 0;
     margin: auto;
     top: 0;
-    height: 500px;
+    height: 55%;
     right: 0;
     left: 0;
 }
 
-.modal-login-dialog .modal-content {
+.desenvolve-modal-login .modal-content {
     width: 70%;
     display: flex;
     position: relative;
     right: 0;
-    overflow-y: hidden;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -296,24 +273,22 @@ input.form-control::placeholder {
     margin: auto;
 }
 
-.sing-in-img {
+.sing-in-image {
     position: relative;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+    height: 600px !important;
 }
 
-.sing-in-img-logo {
+.img-logo-sing-in {
     position: absolute;
     z-index: 1;
     height: 30px;
     margin: 0 auto;
     right: 0;
-    top: 20px;
+    top: 50px;
     left: 0;
 }
 
-.sign-in-button-close {
+.close-button-sign-in {
     top: 5px;
     position: absolute;
     right: 8px;
@@ -328,7 +303,7 @@ input.form-control::placeholder {
 
 .modal-body {
     position: absolute;
-    top: 100px;
+    top: 160px;
     width: 90%;
     margin: 0 auto;
     right: 0;
@@ -347,7 +322,7 @@ input.form-control::placeholder {
     color: #565454;
 }
 
-.login-input {
+.input-login {
     opacity: .7;
 }
 
@@ -357,7 +332,7 @@ input.form-control::placeholder {
     border-color: #28a745;
 }
 
-.sign-in-button {
+.button-sign-in {
     color: #fff;
     background-color: #28a745;
     border-color: #28a745;
@@ -378,7 +353,7 @@ input.form-control::placeholder {
     color: #000 !important;
 }
 
-.sign-in-button-google {
+.button-sign-google-facebook {
     width: 100%;
     margin: 5px 0;
     text-align: center;
@@ -471,8 +446,8 @@ input.form-control::placeholder {
 
 /* FOOTER */
 
-.footer {
-    background:#27AE60;
+.footer-desenvouve {
+    /* background:#27AE60; */
     position: absolute;
     width: 100%;
     margin: 0 auto;
@@ -481,12 +456,12 @@ input.form-control::placeholder {
     color: #fff !important;
 }
 
-.footer ul li a {
+.footer-desenvouve ul li a {
     color: #fff !important;
     font-weight: 200;
 }
 
-.footer-logo {
+.logo-footer-desenvouve {
     width: 120px;
     position: absolute;
     top: -13px;
@@ -494,7 +469,7 @@ input.form-control::placeholder {
     margin: 0px 20px;
 }
 
-.footer-text {
+.text-footer-desenvouve {
     color: #fff;
     text-align: center;
     font-size: 15px;
@@ -504,7 +479,7 @@ input.form-control::placeholder {
 
 /* PROFILE */
 
-.title-profile {
+.title-profile-desenvouve {
     text-align: left;
     margin: 40px 0 0 0;
 }
@@ -515,6 +490,7 @@ input.form-control::placeholder {
 .page-item.active .page-link {
     background-color: #28a745;
     border-color: #28a745;
+    cursor: pointer;
 }
 
 .page-link {
@@ -522,6 +498,7 @@ input.form-control::placeholder {
     color: #000 !important;
     background-color: #fff !important;
     border: none !important;
+    cursor: pointer;
 }
 
 .page-link:focus {
@@ -530,7 +507,7 @@ input.form-control::placeholder {
 
 /* MOBILE CARD PRINCIPAL */
 
-@media (max-width: 600px) {
+@media (max-width: 991.98px) {
     .form-control {
         width: 200px !important;
         margin: 0 5px 0 0;
@@ -553,7 +530,7 @@ input.form-control::placeholder {
         margin: 0;
     }
 
-    .sing-in-img {
+    .sing-in-image {
         position: relative;
         height: 550px !important;
     }
@@ -575,7 +552,7 @@ input.form-control::placeholder {
         padding-left: 0;
         margin: 20px 0 0px 0;
     }
-    .footer-logo {
+    .logo-footer-desenvouve {
         width: 130px;
         position: absolute;
         top: -10px;
@@ -584,7 +561,7 @@ input.form-control::placeholder {
         height: 35px;
         margin: 0 auto;
     }
-    .footer {
+    .footer-desenvouve {
         padding: 30px;
     }
     .logo-img {
@@ -655,15 +632,5 @@ input.form-control::placeholder {
     .float-right {
         margin: 0 -5px;
         line-height: 2.3;
-    }
-    /*NAVBAR*/
-    .modal-backdrop.show {
-        opacity: 0;
-        display: none;
-    }
-
-    /*MODAL LOGIN*/
-    .modal-dialog.desenvolve-modal-login {
-        display: none;
     }
 }

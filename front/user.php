@@ -1,4 +1,4 @@
-<?php require_once("partials/header.php");
+<?php require_once("header.php");
 ?>
 
 <div class="container">
@@ -10,7 +10,7 @@
                     <div class="row mt-5 align-items-center">
                         <div class="col-md-3 text-center mb-4">
                             <div class="avatar avatar-xl">
-                                <img src=".././resources/img/perfil.svg" alt="..." class="img-fluid rounded-circle" />
+                                <img src="../img/perfil.svg" alt="..." class="img-fluid rounded-circle" />
                             </div>
                         </div>
                         <div class="col">
@@ -18,11 +18,6 @@
                                 <div class="col-md-7">
                                     <h4 class="mb-1 mt-2">Heber Gustavo</h4>
                                     <p class="small mb-3"><span class="badge badge-dark">Administrador</span></p>
-                                </div>
-                            </div>
-                            <div class="row mb-4">
-                                <div class="col">
-                                    <p class="small mb-0 text-muted">(19) 9.8708-7683</p>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +42,7 @@
                         <input type="text" class="form-control" id="inputAddress5" placeholder="Rua Russia, 2210 - Jardim Europa, SBO" />
                     </div>
                     <div class="form-row linhaAlterarSenha">
-                        <button class="btn btn-success btn-sm mr-1" id="toggleAlterarSenha">Alterar senha</button>
+                        <button class="btn btn-dark btn-sm mr-1" id="toggleAlterarSenha">Alterar senha</button>
                     </div>
                     <div class="caixaAlterarSenha d-none">
                         <hr>
@@ -63,16 +58,16 @@
                         </div>
                     </div>
                     <hr class="my-4" />
-                    <button type="submit" class="btn btn-success">Salvar</button>
+                    <button type="submit" class="btn btn-dark">Salvar</button>
                 </form>
             </div>
         </div>
     </div>
 </div>
 
-<?php require_once("partials/login-modal.php");
-      require_once("partials/register-modal.php");
-      require_once("partials/confirmation-modal.php");
-      require_once("partials/start-pagination.php");
-      require_once("partials/footer.php");
+<?php require_once("login-modal.php");
+      require_once("register-modal.php");
+      require_once("confirmation-modal.php");
+      require_once("start-pagination.php");
+      require_once("footer.php");
 ?>

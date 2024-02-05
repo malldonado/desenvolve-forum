@@ -1,5 +1,5 @@
 <?php 
-      require_once("partials/header.php");
+      require_once("header.php");
 ?>
 
 <div class="container">
@@ -170,10 +170,10 @@
     </div>
 
 </div>
-<?php 
-      require_once("partials/login-modal.php");
-      require_once("partials/register-modal.php");
-      require_once("partials/confirmation-modal.php");
-      require_once("partials/start-pagination.php");
-      require_once("partials/footer.php");
+<?php   
+    require_once("start-pagination.php");
+    require_once("login-modal.php");
+    require_once("register-modal.php");
+    require_once("confirmation-modal.php");
+    require_once("footer.php");
 ?>

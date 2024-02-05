@@ -2,8 +2,8 @@
 <div class="modal fade" id="confirmation-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <img class="sing-in-img-logo" src="" alt="">
-            <img class="sing-in-img" src="../../resources/img/sign-in.svg" alt="">
+            <img class="img-logo-sing-in" src="../img/logo.png" alt="">
+            <img class="sing-in-image" src="../img/sign-in.jpg" alt="">
             <div class="modal-header">
                 <h5 class="modal-title modal-title-confirmation" id="exampleModalLabel">Confirma seu email!</h5>
                 <button type="button" class="close close-button-sign-in" data-dismiss="modal" aria-label="Close">
